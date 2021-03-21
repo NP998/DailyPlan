@@ -1,0 +1,90 @@
+p{
+    margin-top: auto;
+    font-size: 19px;
+    font-weight: 500;
+}
+.morning-thing{
+    
+    
+    height: 100%;
+    width: 100%;
+    display: flex;
+    margin-top: -16px;
+
+    .morning-tips{
+        background: rgb(241, 241, 241);
+        height: 87%;
+        width: 50%;
+        border-top-left-radius: 10px;
+        border-bottom-left-radius:10px ;
+        .apple{
+            display: flex;
+            align-items: center;
+            padding-left: 15px;
+            svg{
+                color:rgb(39, 15, 126)
+            }
+            h4{
+                color:rgb(39, 15, 126)
+            }
+        }
+        p{
+            font-size: 10px;
+            padding-left: 15px;
+            margin-top: -13px;
+        }
+        .spans{
+            padding-left: 15px;
+            font-size: 11px;
+            font-weight: bold;
+            margin-top: -6px;
+        }
+        .recipe{
+            display: flex;
+            .item{
+                padding-right: 15px;
+                border-right:1px solid gray;
+            }
+            pre{
+                padding-left:15px;
+                margin-top: -10px;
+                font-size: 9px;
+                
+            }
+            .cal{
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                padding-left: 20px;
+                font-weight: bold;
+                color:rgb(39, 15, 126)
+            }
+        }
+        .btn{
+            display: flex;
+            margin-left: 15px;
+            button{
+                font-size: 10px;
+                background: black;
+                color: white;
+                height: 20px;
+                border-radius: 20px;
+            }
+            p{
+                margin-top: 4px;
+                color: rgb(17, 164, 184);
+            }
+        }
+    }
+    .morning-image{
+        background: hotpink;
+        height: 87%;
+        width: 50%;
+        border-top-right-radius: 10px;
+        border-bottom-right-radius:10px ;
+        img{
+            height:100%;
+            width:100%;
+        }
+    }
+}

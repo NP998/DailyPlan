@@ -1,0 +1,69 @@
+.daily-monitering{
+     background: #e7f1eb;
+     width: 90%;
+     height:25%;
+     margin:0 auto;
+     border-top-right-radius: 10px;
+     border-top-left-radius: 10px;
+     
+    .header{
+        display: flex;
+        justify-content: space-between;
+         p{
+             font-size: 15px;
+         }
+        .see-progress{
+            display: flex;
+            align-items: center;
+            p{
+                font-size: 10px;
+            }
+        }
+    }
+    .daily-monitering-card{
+        display: flex;
+        justify-content:space-between;
+        height: 60%;
+        .parent{
+            border-radius: 10px;
+            width: 23%;
+           background: white;
+        .card{
+             height: 100%;
+             display: flex;
+             justify-content: space-between;
+             .icon-border{
+                display: flex;
+                align-items: center;
+                width: 44px;
+                height: 41px;
+                background: gray;
+                margin-top: 22px;
+                margin-left: 6px;
+                border-radius: 50%;
+                
+             .card-icon{
+                
+                 margin-left: 12px;
+                 svg{
+                     color:green;
+                 }
+             }
+            }
+             .card-body{
+                 width: 63%;
+                 padding-top: 12px;
+                 .card-text{
+                    font-weight: bold;
+                    font-size: 20px;
+                    
+                 }
+                 .card-texts{
+                     color: gray;
+                     font-size: 10px;
+                 }
+             }
+        }
+    }
+}
+}

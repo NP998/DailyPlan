@@ -1,0 +1,20 @@
+@import './typography';
+@import './common';
+@import './theme';
+
+//components
+@import '../components/dashboard/dashboard';
+
+@import '../components/avatar/avatar';
+@import '../screen/dailyplan/dailyplan';
+
+@import '../components/navbar/navbar';
+@import '../components/dailyprocess/dailyprocess';
+@import '../components/dailymonitering/dailymonitering';
+
+@import '../components/dailyprocess/dailyprocess';
+@import '../components//dailymonitering/dailymonitering';
+@import '../components/challenge/challenge';
+@import "../components/challen/challen";
+@import '../components/dailytips/dailytips';
+@import '../components/recomendedChall/recomendedChall';

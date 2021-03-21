@@ -1,0 +1,73 @@
+.recomendedChall{
+   width: 90%;
+   height: 30%;
+   background: #e7f1eb;
+   margin:0 auto;
+   border-radius: 10px;
+  
+   .reco-header{
+       display: flex;
+       justify-content: space-between;
+       align-items: center;
+       margin-top: -20px;
+   }
+  .carosal{
+      height: 90%;
+      width: 100%;
+      background: #e7f1eb;
+      margin-top: -16px;
+      display: flex;
+      justify-content: space-between;
+      .carosal-item{
+          
+          height: 85%;
+          width:23%;
+          border-radius: 10px;
+          position: relative;
+          
+          img{
+            height: 100%;
+            width: 100%;
+            border-radius: 10px;  
+          }
+          .topsvg{
+              position:absolute;
+              right: 8px;
+              top:7px;
+              color: white;
+          }
+          .bottomsvg{
+              position: absolute;
+              bottom: 15px;
+              left:13px;
+              background: white;
+              border-radius: 4px;
+              width: 25px;
+              height: 25px;
+              display: flex;
+              justify-content: center;
+              align-items: center;
+              svg{
+                  color:rgb(112, 32, 112)
+              }
+              }
+           .text1{
+               position: absolute;
+               font-size: 11px;
+               font-weight: bold;
+               color: rgb(83, 29, 29);
+               top:85px;
+               left:40px;
+           }   
+           .text2{
+                position: absolute;
+                font-size: 10px;
+                font-weight: 500;
+                color: rgb(83, 29, 29);
+                top:99px;
+                left:40px;
+           }
+         
+      }
+    }
+}

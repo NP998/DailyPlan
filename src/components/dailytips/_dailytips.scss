@@ -1,0 +1,53 @@
+.see-all{
+    display: flex;
+    justify-content: space-between;
+    
+    h4{
+        margin-top:1px;
+    }
+    div{
+        display: flex;
+        font-size:10px;
+        margin-top: 6px;
+    }
+}
+
+.dailytip{
+    margin-top: -14px;
+    background: white;
+    height: 83.5%;
+    width: 100%;
+    border-radius: 10px;
+    padding: 5px;
+    .tips{
+        width: 80%;
+        height: 100%;
+        margin: 0 auto;
+       background: white;
+       overflow: hidden;
+      .mesgg{
+          border-bottom: 1px solid gray;
+        
+       .paheratitle{
+           font-size: 13px;
+           font-weight: bold;
+       }
+        .paheragraph{
+           font-size: 10px;
+           margin-top:-14px;
+        }
+        .find-more{
+            display: flex;
+            margin-top:-7px;
+            color:rgb(34, 147, 151);
+            .says{
+                margin-top: 2px;
+                font-size: 11px;
+            }
+        }
+      }
+      .nothing{
+          border-bottom: white;
+      }
+    }
+}

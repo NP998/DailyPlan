@@ -1,0 +1,24 @@
+.challenge{
+    width:90%;
+    height: 40%;
+    background: #e7f1eb;
+    margin: 5px auto;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+
+    .challen{
+         height: 100%;
+         width:65%;
+         background: #e7f1eb;
+         border-radius: 10px;
+    }
+    .dailytips{
+        height: 100%;
+        width:33%;
+        margin-right: 9px;
+        background: #e7f1eb;
+        border-radius: 10px;
+    }
+}
